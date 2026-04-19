@@ -1,0 +1,256 @@
+{
+  "meta": {
+    "university": "Koç Üniversitesi",
+    "program": "Computer Engineering",
+    "graduation_requirements": {
+      "core_courses_credits": 31,
+      "required_courses_credits": 64,
+      "general_elective_credits": 18,
+      "area_elective_credits": 18,
+      "total_credits": 131
+    },
+    "max_load_rules": {
+      "default_max_courses": 5,
+      "gpa_above_2.7_max_courses": 6,
+      "gpa_above_3.6_max_courses": 7
+    },
+    "curriculum": {
+      "freshman_fall": [
+        { "code": "ACWR 101", "name": "Basic Academic Writing", "type": "core", "credits": 3 },
+        { "code": "ALIS 100", "name": "Academic and Life Skills", "type": "core", "credits": 1 },
+        { "code": "COMP 100", "name": "Introduction to Computer Science and Programming", "type": "required", "credits": 3 },
+        { "code": "COMP 106", "name": "Discrete Mathematics for Computer Science and Engineering", "type": "required", "credits": 3 },
+        { "code": "MATH 106", "name": "Calculus", "type": "required", "credits": 3 },
+        { "code": "PHYS 101", "name": "General Physics I", "type": "required", "credits": 3, "corequisite": "PHYS 101L" },
+        { "code": "PHYS 101L", "name": "General Physics I Laboratory", "type": "required", "credits": 1, "corequisite": "PHYS 101" },
+        { "code": "UNIV 101", "name": "Introduction to Koç University", "type": "core", "credits": 1 }
+      ],
+      "freshman_spring": [
+        { "code": "COMP 132", "name": "Advanced Programming", "type": "required", "credits": 3, "prerequisite": "COMP 100" },
+        { "code": "DOS 171", "name": "Digital Literacy", "type": "core", "credits": 1 },
+        { "code": "MATH 107", "name": "Introduction to Linear Algebra", "type": "required", "credits": 3 },
+        { "code": "MATH 203", "name": "Multivariable Calculus", "type": "required", "credits": 3, "prerequisite": "MATH 106" },
+        { "code": "PHYS 102", "name": "General Physics II", "type": "required", "credits": 3, "prerequisite": "PHYS 101", "corequisite": "PHYS 102L" },
+        { "code": "PHYS 102L", "name": "General Physics II Laboratory", "type": "required", "credits": 1, "corequisite": "PHYS 102" },
+        { "code": "SOSC", "name": "Social Science Elective", "type": "core", "credits": 3 },
+        { "code": "TURK 100", "name": "Turkish - Speech and Composition", "type": "core", "credits": 4 }
+      ],
+      "sophomore_fall": [
+        { "code": "COMP 201", "name": "Computer Systems & Programming", "type": "required", "credits": 3, "prerequisite": "COMP 132" },
+        { "code": "ECSA", "name": "Economics & Administrative Sciences Elective", "type": "core", "credits": 3 },
+        { "code": "MATH 204", "name": "Differential Equations", "type": "required", "credits": 3, "prerequisite": "MATH 107, MATH 203" },
+        { "code": "SCEN", "name": "Science Elective", "type": "required", "credits": 3 },
+        { "code": "ELECTIVE", "name": "General Elective", "type": "general_elective", "credits": 3 }
+      ],
+      "sophomore_spring": [
+        { "code": "ACWR 106", "name": "Academic Writing for Science & Technology", "type": "core", "credits": 3, "prerequisite": "ACWR 101" },
+        { "code": "COMP 202", "name": "Data Structures & Algorithms", "type": "required", "credits": 3, "prerequisite": "COMP 106, COMP 132" },
+        { "code": "COMP 291", "name": "Summer Practice I", "type": "required", "credits": 0, "prerequisite": "ACWR 101, DOS 171" },
+        { "code": "ELEC 205", "name": "Digital System Design", "type": "required", "credits": 3 },
+        { "code": "ENGR 200", "name": "Probability and Random Variables for Engineers", "type": "required", "credits": 4, "prerequisite": "MATH 203" },
+        { "code": "MBGE 200", "name": "Introductory Biology", "type": "required", "credits": 3 }
+      ],
+      "junior_fall": [
+        { "code": "COMP 301", "name": "Programming Language Concepts", "type": "required", "credits": 3, "prerequisite": "COMP 201, COMP 202" },
+        { "code": "COMP 302", "name": "Software Engineering", "type": "required", "credits": 3, "prerequisite": "COMP 132, COMP 202" },
+        { "code": "HIST 300", "name": "History of Modern Türkiye", "type": "core", "credits": 4, "prerequisite": "ACWR 101" },
+        { "code": "HUMS", "name": "Humanities Elective", "type": "core", "credits": 3 },
+        { "code": "AREA", "name": "Area Elective", "type": "area_elective", "credits": 3 }
+      ],
+      "junior_spring": [
+        { "code": "COMP 304", "name": "Operating Systems", "type": "required", "credits": 3, "prerequisite": "COMP 201" },
+        { "code": "COMP 305", "name": "Algorithms & Complexity", "type": "required", "credits": 3, "prerequisite": "COMP 202, ENGR 200" },
+        { "code": "COMP 391", "name": "Summer Practice II", "type": "required", "credits": 0, "prerequisite": "COMP 291, ACWR 106" },
+        { "code": "ASIU", "name": "Arts, Social Issues & Understanding Elective", "type": "core", "credits": 3 },
+        { "code": "AREA", "name": "Area Elective", "type": "area_elective", "credits": 3 },
+        { "code": "ELECTIVE", "name": "General Elective", "type": "general_elective", "credits": 3 }
+      ],
+      "senior_fall": [
+        { "code": "COMP 491", "name": "Computer Engineering Design I", "type": "required", "credits": 4, "prerequisite": "COMP 202, COMP 302" },
+        { "code": "ENGR 493", "name": "Multidisciplinary Teamwork Experience", "type": "required", "credits": 0 },
+        { "code": "ETHC", "name": "Ethics Elective", "type": "core", "credits": 3 },
+        { "code": "AREA", "name": "Area Elective", "type": "area_elective", "credits": 3 },
+        { "code": "AREA", "name": "Area Elective", "type": "area_elective", "credits": 3 },
+        { "code": "ELECTIVE", "name": "General Elective", "type": "general_elective", "credits": 3 }
+      ],
+      "senior_spring": [
+        { "code": "AREA", "name": "Area Elective", "type": "area_elective", "credits": 3 },
+        { "code": "AREA", "name": "Area Elective", "type": "area_elective", "credits": 3 },
+        { "code": "ELECTIVE", "name": "General Elective", "type": "general_elective", "credits": 3 },
+        { "code": "ELECTIVE", "name": "General Elective", "type": "general_elective", "credits": 3 },
+        { "code": "ELECTIVE", "name": "General Elective", "type": "general_elective", "credits": 3 }
+      ]
+    }
+  },
+  "students": [
+    {
+      "student_id": "0084110",
+      "name": "Elif Yılmaz",
+      "current_semester": 5,
+      "gpa": 3.42,
+      "credits": {
+        "core": { "completed": 22, "required": 31 },
+        "required": { "completed": 49, "required": 64 },
+        "general_elective": { "completed": 3, "required": 18 },
+        "area_elective": { "completed": 0, "required": 18 },
+        "total_required": 131
+      },
+      "completed_courses": [
+        "ACWR 101", "ALIS 100", "UNIV 101", "DOS 171", "SOSC", "TURK 100", "ECSA", "ACWR 106",
+        "COMP 100", "COMP 106", "MATH 106", "PHYS 101", "PHYS 101L",
+        "COMP 132", "MATH 107", "MATH 203", "PHYS 102", "PHYS 102L",
+        "COMP 201", "MATH 204", "SCEN",
+        "COMP 202", "COMP 291", "ELEC 205", "ENGR 200", "MBGE 200"
+      ],
+      "current_courses": [
+        { "code": "COMP 301", "name": "Programming Language Concepts", "credits": 3 },
+        { "code": "COMP 304", "name": "Operating Systems", "credits": 3 }
+      ],
+      "remaining_courses": {
+        "core": [
+          { "code": "HIST 300", "name": "History of Modern Türkiye", "credits": 4 },
+          { "code": "HUMS", "name": "Humanities Elective", "credits": 3 },
+          { "code": "ASIU", "name": "Arts, Social Issues & Understanding Elective", "credits": 3 },
+          { "code": "ETHC", "name": "Ethics Elective", "credits": 3 }
+        ],
+        "required": [
+          { "code": "COMP 301", "name": "Programming Language Concepts", "credits": 3 },
+          { "code": "COMP 302", "name": "Software Engineering", "credits": 3 },
+          { "code": "COMP 304", "name": "Operating Systems", "credits": 3 },
+          { "code": "COMP 305", "name": "Algorithms & Complexity", "credits": 3 },
+          { "code": "COMP 391", "name": "Summer Practice II", "credits": 0 },
+          { "code": "COMP 491", "name": "Computer Engineering Design I", "credits": 4 },
+          { "code": "ENGR 493", "name": "Multidisciplinary Teamwork Experience", "credits": 0 }
+        ],
+        "general_elective_credits_remaining": 15,
+        "area_elective_credits_remaining": 18
+      },
+      "max_courses_per_semester": 6
+    },
+    {
+      "student_id": "0079521",
+      "name": "Burak Özkan",
+      "current_semester": 6,
+      "gpa": 1.95,
+      "credits": {
+        "core": { "completed": 19, "required": 31 },
+        "required": { "completed": 35, "required": 64 },
+        "general_elective": { "completed": 3, "required": 18 },
+        "area_elective": { "completed": 0, "required": 18 },
+        "total_required": 131
+      },
+      "completed_courses": [
+        "ACWR 101", "ALIS 100", "UNIV 101", "DOS 171", "SOSC", "TURK 100", "ECSA",
+        "COMP 100", "COMP 106", "MATH 106", "PHYS 101", "PHYS 101L",
+        "COMP 132", "MATH 107", "MATH 203", "PHYS 102", "PHYS 102L",
+        "COMP 201", "ELEC 205", "MBGE 200"
+      ],
+      "current_courses": [
+        { "code": "MATH 204", "name": "Differential Equations", "credits": 3 },
+        { "code": "COMP 202", "name": "Data Structures & Algorithms", "credits": 3 }
+      ],
+      "remaining_courses": {
+        "core": [
+          { "code": "ACWR 106", "name": "Academic Writing for Science & Technology", "credits": 3 },
+          { "code": "HIST 300", "name": "History of Modern Türkiye", "credits": 4 },
+          { "code": "HUMS", "name": "Humanities Elective", "credits": 3 },
+          { "code": "ASIU", "name": "Arts, Social Issues & Understanding Elective", "credits": 3 },
+          { "code": "ETHC", "name": "Ethics Elective", "credits": 3 }
+        ],
+        "required": [
+          { "code": "MATH 204", "name": "Differential Equations", "credits": 3 },
+          { "code": "SCEN", "name": "Science Elective", "credits": 3 },
+          { "code": "COMP 202", "name": "Data Structures & Algorithms", "credits": 3 },
+          { "code": "COMP 291", "name": "Summer Practice I", "credits": 0 },
+          { "code": "ENGR 200", "name": "Probability and Random Variables for Engineers", "credits": 4 },
+          { "code": "COMP 301", "name": "Programming Language Concepts", "credits": 3 },
+          { "code": "COMP 302", "name": "Software Engineering", "credits": 3 },
+          { "code": "COMP 304", "name": "Operating Systems", "credits": 3 },
+          { "code": "COMP 305", "name": "Algorithms & Complexity", "credits": 3 },
+          { "code": "COMP 391", "name": "Summer Practice II", "credits": 0 },
+          { "code": "COMP 491", "name": "Computer Engineering Design I", "credits": 4 },
+          { "code": "ENGR 493", "name": "Multidisciplinary Teamwork Experience", "credits": 0 }
+        ],
+        "general_elective_credits_remaining": 15,
+        "area_elective_credits_remaining": 18
+      },
+      "max_courses_per_semester": 5
+    },
+    {
+      "student_id": "0081519",
+      "name": "Sude Karataş",
+      "current_semester": 8,
+      "gpa": 3.78,
+      "credits": {
+        "core": { "completed": 31, "required": 31 },
+        "required": { "completed": 60, "required": 64 },
+        "general_elective": { "completed": 15, "required": 18 },
+        "area_elective": { "completed": 15, "required": 18 },
+        "total_required": 131
+      },
+      "completed_courses": [
+        "ACWR 101", "ALIS 100", "UNIV 101", "DOS 171", "SOSC", "TURK 100", "ECSA", "ACWR 106",
+        "HIST 300", "HUMS", "ASIU", "ETHC",
+        "COMP 100", "COMP 106", "MATH 106", "PHYS 101", "PHYS 101L",
+        "COMP 132", "MATH 107", "MATH 203", "PHYS 102", "PHYS 102L",
+        "COMP 201", "MATH 204", "SCEN",
+        "COMP 202", "COMP 291", "ELEC 205", "ENGR 200", "MBGE 200",
+        "COMP 301", "COMP 302", "COMP 304", "COMP 305", "COMP 391",
+        "COMP 491", "ENGR 493"
+      ],
+      "current_courses": [
+        { "code": "COMP 492", "name": "Computer Engineering Design II", "credits": 4 },
+        { "code": "GENERAL_ELECTIVE", "name": "General Elective", "credits": 3 },
+        { "code": "AREA_ELECTIVE", "name": "Area Elective", "credits": 3 }
+      ],
+      "remaining_courses": {
+        "core": [],
+        "required": [],
+        "general_elective_credits_remaining": 0,
+        "area_elective_credits_remaining": 0
+      },
+      "max_courses_per_semester": 7
+    },
+    {
+      "student_id": "0073527",
+      "name": "Kerem Aktaş",
+      "current_semester": 9,
+      "gpa": 2.58,
+      "credits": {
+        "core": { "completed": 28, "required": 31 },
+        "required": { "completed": 53, "required": 64 },
+        "general_elective": { "completed": 12, "required": 18 },
+        "area_elective": { "completed": 9, "required": 18 },
+        "total_required": 131
+      },
+      "completed_courses": [
+        "ACWR 101", "ALIS 100", "UNIV 101", "DOS 171", "SOSC", "TURK 100", "ECSA", "ACWR 106",
+        "HIST 300", "HUMS",
+        "COMP 100", "COMP 106", "MATH 106", "PHYS 101", "PHYS 101L",
+        "COMP 132", "MATH 107", "MATH 203", "PHYS 102", "PHYS 102L",
+        "COMP 201", "MATH 204", "SCEN",
+        "COMP 202", "COMP 291", "ELEC 205", "ENGR 200", "MBGE 200",
+        "COMP 301", "COMP 302", "COMP 391"
+      ],
+      "current_courses": [
+        { "code": "COMP 304", "name": "Operating Systems", "credits": 3 },
+        { "code": "COMP 305", "name": "Algorithms & Complexity", "credits": 3 }
+      ],
+      "remaining_courses": {
+        "core": [
+          { "code": "ASIU", "name": "Arts, Social Issues & Understanding Elective", "credits": 3 },
+          { "code": "ETHC", "name": "Ethics Elective", "credits": 3 }
+        ],
+        "required": [
+          { "code": "COMP 304", "name": "Operating Systems", "credits": 3 },
+          { "code": "COMP 305", "name": "Algorithms & Complexity", "credits": 3 },
+          { "code": "COMP 491", "name": "Computer Engineering Design I", "credits": 4 },
+          { "code": "ENGR 493", "name": "Multidisciplinary Teamwork Experience", "credits": 0 }
+        ],
+        "general_elective_credits_remaining": 6,
+        "area_elective_credits_remaining": 9
+      },
+      "max_courses_per_semester": 5
+    }
+  ]
+}
